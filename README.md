@@ -84,10 +84,11 @@ You can run the full AutoLitSurvey pipeline here:
 ➡️ **notebook/AutoLitSurvey.ipynb**
 
 ## Push everything to GitHub
+```markdown
 !git init
 !git add .
 !git commit -m "Initial AutoLitSurvey commit"
 !git branch -M main
 !git remote add origin https://github.com/<your-username>/AutoLitSurvey.git
 !git push -u origin main
-
+```
