@@ -92,3 +92,8 @@ You can run the full AutoLitSurvey pipeline here:
 !git remote add origin https://github.com/<your-username>/AutoLitSurvey.git
 !git push -u origin main
 ```
+
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![Kaggle](https://img.shields.io/badge/Kaggle-Submission-blue)
+
