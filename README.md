@@ -42,34 +42,38 @@ AutoLitSurvey automates the entire literature review workflow:
 - Only needs MiniLM (~90MB)  
 - Works in Colab, Kaggle, local  
 
+
+
 ---
 
-## 📁 Project Structure
+# ✅ **Correct GitHub Folder Structure**
 
+```markdown
 AutoLitSurvey/
 │
 ├── src/
-│ ├── agent.py
-│ └── tools/
-│ ├── retriever.py
-│ ├── vectorstore.py
-│ ├── summarizer_extractive.py
-│ ├── keywords.py
-│ ├── clustering.py
-│ ├── tablegen.py
-│ ├── report_writer.py
+│   ├── agent.py
+│   └── tools/
+│       ├── retriever.py
+│       ├── vectorstore.py
+│       ├── summarizer_extractive.py
+│       ├── keywords.py
+│       ├── clustering.py
+│       ├── tablegen.py
+│       ├── report_writer.py
 │
 ├── notebook/
-│ └── AutoLitSurvey.ipynb
+│   └── AutoLitSurvey.ipynb
 │
 ├── data/
-│ └── abstracts.csv
+│   └── abstracts.csv
 │
 ├── outputs/
-│ ├── diagram.png
-│ ├── report.md
-│ ├── report.html
-│ └── trace.json
+│   ├── diagram.png
+│   ├── report.md
+│   ├── report.html
+│   └── trace.json
 │
 ├── requirements.txt
 └── README.md
+```
